@@ -56,6 +56,12 @@ This data contained personal information from people and organizations, which wo
 ## Future Work
 This project can be improved upon in the future, where we could also add data from additional cities and states. We could possibly integrate some sort of API later on, where we can use real-time updates from government finance sites to keep the database relevant. Other datasets can also be combined with it, allowing for deeper analysis into political expenditure trends (voter demographics, election results, etc).
 
+## How to Use This Database
+1. Review SQL schema and ERD to understand relationships
+2. Load provided data into your SQL environment
+3. Run ```queries.sql``` or own scripts to explore and generate insights
+4. Extend the database with additional data or views
+
 
 
 
