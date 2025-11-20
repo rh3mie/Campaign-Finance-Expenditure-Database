@@ -59,7 +59,7 @@ This project can be improved upon in the future, where we could also add data fr
 ## How to Use This Database
 1. Review SQL schema and ERD to understand relationships
 2. Load provided data into your SQL environment
-3. Run ```queries.sql``` or own scripts to explore and generate insights
+3. Run ```expenditure_db_queries.sql``` or own scripts to explore and generate insights
 4. Extend the database with additional data or views
 
 
