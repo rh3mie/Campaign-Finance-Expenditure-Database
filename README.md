@@ -5,6 +5,11 @@
 ## Overview
 This project builds a fully normalized SQL database using campaign finance expenditures using real data from the [City of Austin's Open Data Portal](https://data.austintexas.gov/browse?limitTo=datasets&sortBy=relevance&pageSize=20&q=Campaign+Finance+-+Expenditures). The goal is to provide a transparent, organized, and analysis-ready database that helps users understand how money moves through political campaigns, who pays, who receives payments, and what activities funds support. We transformed the large unstructured dataset into a clean relational design with nine interconnected tables, supporting rich analytical queries and views.
 
+## Files
+- ```sql_code```: Folder that includes all SQL code and .mwb file for database structure. Includes script and backup for database creation, and for SQL queries for data exploration.
+- ```campaign_expenditures.csv```: csv file including campaign expenditure data
+- ```campaign_finance_expenditure_report.pdf```: Final report explaining database creation, methods, queries, and future work.
+
 ## Project Outline
 - Model campaign finance expenditure data into a relational SQL database
 - Normalize raw government data into clear tables
