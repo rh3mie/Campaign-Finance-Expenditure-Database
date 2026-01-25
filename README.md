@@ -40,7 +40,7 @@ The raw dataset contained many duplicate transactions, creating a large mess of 
 - Created proper foreign keys to ensure reference integrity
 
 ## SQL Views/ Queries
-We created six analytical SQL views to demonstrate joins, filtering, aggregation, linking tables, and subqueries. These were created as examples of what insights could be taken from this dataset.
+We created six analytical SQL views to demonstrate joins, filtering, window functions, aggregation, linking tables, and subqueries. These were created as examples of what insights could be taken from this dataset.
 - **Query #1**: Creates a view showing payments made by a payer to an organization, and if the payment is due to a political obligation.
 - **Query #2**: Shows payment counts by report type for each payee.
 - **Query #3**: Creates a view that shows the total amount of payments for an individual payee, and the address information associated with the payee.
