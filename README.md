@@ -51,19 +51,27 @@ within the first four months of the year.
 - **Query 6**: Creates a view that identifies payments that are above the average payment amount for
 each payee, specifically identifying individual payees.
 
+## Key Findings
+- Total Payments by payee shows that the top 10 payees account for 57% of total campaign expenditures, showing how distribution is more concentrated than spread.
+- Payment counts differ significantly by expenditure type, with the highest expenditure categories (political contribution, advertisement) containing ~3.4 times more transactions than lower volume categories (non-political, office-expense) for the same payees.
+- These high-cost expenditure types (political contribution, advertisement, salaries, event fees) account for 73% of all recorded payments from this dataset, showing campaign spending prioritization.
+- Average payment amounts during the first four months of the year vary vastly (30-55%) across organizations, showing different approaches to early-cycle spending strategies.
+- Individual payees pay less than the average amount in the dataset, especially compared to organizations and companies.
+- This normalized schema allows for full traceability of transactions, linking every payment to payer, payee, expense, expenditure type, and report metadata with no empty records.
+
 ## Ethical Considerations
-This data contained personal information from people and organizations, which would be troublesome privacy protection. To make this database ethical, we took these steps and values.
+This data contained personal information from people and organizations, which would be a problem for privacy protection. To make this database ethical, we took these steps and values.
 - Transparency: Used official, untampered with government data
 - Privacy Protection: No use of sensitive information
 - Bias Reduction: Designed the database to avoid the exclusion of any groups or donors
 - Equitable Access: Data and design are free to use for the public
 
 ## Future Work
-This project can be improved upon in the future, where we could also add data from additional cities and states. We could possibly integrate some sort of API later on, where we can use real-time updates from government finance sites to keep the database relevant. Other datasets can also be combined with it, allowing for deeper analysis into political expenditure trends (voter demographics, election results, etc).
+This project can be improved upon in the future, where we could also add data from additional cities and states. We could integrate some sort of API later on, where we can use real-time updates from government finance sites to keep the database relevant. Other datasets can also be combined with it, allowing for deeper analysis into political expenditure trends (voter demographics, election results, etc).
 
 ## How to Use This Database
 1. Review SQL schema and ERD to understand relationships
-2. Load provided data into your SQL environment
+2. Load the provided data into your SQL environment
 3. Run ```expenditure_db_queries.sql``` or own scripts to explore and generate insights
 4. Extend the database with additional data or views
 
