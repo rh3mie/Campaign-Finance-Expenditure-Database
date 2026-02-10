@@ -30,10 +30,11 @@ As you can see from this screenshot of our physical database, it is centered aro
 - ```report_types```: Types of reports filed for campaign finance expenditures
 - ```report_websites```: URLs where reports are publicly accessible
 - ```addresses```: Address information for payees
-This system uses foreign keys to maintain clarity, consistency, and navigability across all data relationships. The structuring of this database also allows there to be reduced redundancy through normalization, scalability for other cities/ future datasets, and query creation to be simpler for deep analysis.
+- 
+This system uses foreign keys to maintain clarity, consistency, and navigability across all data relationships. The structuring of this database also reduces redundancy through normalization, enables scalability for other cities/future datasets, and simplifies query creation for deep analysis.
 
 ## Data Cleaning and Normalization
-The raw dataset contained many duplicate transactions, creating a large mess of mixed attributes, making analysis difficult. To clean and normalize the data, we:
+The raw dataset contained many duplicate transactions, creating a large, mixed set of attributes and making analysis difficult. To clean and normalize the data, we:
 - Extracted only meaningful entities (payees, expenditure types, etc)
 - Normalized data into separate tables (1NF -> 3NF)
 - Removed redundancies, nulls, and repetitive values
