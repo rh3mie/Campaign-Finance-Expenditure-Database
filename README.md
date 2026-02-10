@@ -30,7 +30,7 @@ As you can see from this screenshot of our physical database, it is centered aro
 - ```report_types```: Types of reports filed for campaign finance expenditures
 - ```report_websites```: URLs where reports are publicly accessible
 - ```addresses```: Address information for payees
-- 
+
 This system uses foreign keys to maintain clarity, consistency, and navigability across all data relationships. The structuring of this database also reduces redundancy through normalization, enables scalability for other cities/future datasets, and simplifies query creation for deep analysis.
 
 ## Data Cleaning and Normalization
