@@ -72,9 +72,10 @@ This project can be improved upon in the future, where we could also add data fr
 
 ## How to Use This Database
 1. Review SQL schema and ERD to understand relationships
-2. Load the provided data into your SQL environment
-3. Run ```expenditure_db_queries.sql``` or own scripts to explore and generate insights
-4. Extend the database with additional data or views
+2. Execute ```campaign_finance_expenditures_script.sql``` to create the database schema in the MySQL environment
+3. Load the provided data into the schema
+4. Run ```expenditure_db_queries.sql``` or your own scripts to explore and generate insights
+5. Extend the database with additional data or views
 
 
 
